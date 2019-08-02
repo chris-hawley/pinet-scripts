@@ -1,0 +1,13 @@
+--- orangefs-server.conf.bak	2019-05-13 13:01:20.543772029 +0000
++++ orangefs-server.conf	2019-05-13 13:38:08.630883328 +0000
+@@ -15,8 +15,8 @@
+ 	PrecreateBatchSize 0,1024,1024,1024,32,1024,0
+ 	PrecreateLowThreshold 0,256,256,256,16,256,0
+ 
+-	DataStorageSpace /mnt/oStorage
+-	MetadataStorageSpace /opt/orangefs/storage/meta
++	DataStorageSpace /mnt/oStorage/oData
++	MetadataStorageSpace /mnt/oStorage/oMeta
+ 
+ 	LogFile /var/log/orangefs-server.log
+ 

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+numClients=16
+
+for i in $(seq $numClients)
+do
+        sshpass -p "rock64" scp -r ~/pinetOFS/orangefs/* rock64@192.168.2.$i:/opt/orangefs/.
+done
+
