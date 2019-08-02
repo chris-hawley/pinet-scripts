@@ -1,6 +1,6 @@
 #!/bin/bash
 
-numClients=17
+numClients=16
 
 for i in $(seq $numClients)
 do
